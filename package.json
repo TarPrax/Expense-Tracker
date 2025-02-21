@@ -4,7 +4,9 @@
   "description": "EveryDay usage expense tracker with React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +16,11 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "@tailwindcss/postcss": "^4.0.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "tailwindcss": "^4.0.7"
   }
 }

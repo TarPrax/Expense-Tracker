@@ -1,4 +1,1 @@
-*{
-    background: blue;
-    color:darkgrey;
-}
+@import "tailwindcss";

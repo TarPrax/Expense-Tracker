@@ -1,5 +1,7 @@
+import Skeleton from "./Skeleton";
+
 const App =()=>{
-     return <h1>Test</h1>
+     return (<Skeleton/>)
 }
 
 export default App;
