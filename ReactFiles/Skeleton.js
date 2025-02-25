@@ -1,5 +1,5 @@
 import Header from "./Skeleton/Header";
-import Footer from "./Skeleton/Footer";
+import Footer from "./Footer";
 import Body from "./Skeleton/Body";
 const Skeleton = () => {
   return (

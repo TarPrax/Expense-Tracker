@@ -1,13 +1,11 @@
-import { Illu1, Illu2, Illu3, Illu4 } from "../Images/Constants";
-import HomeDisplay from "./HomeDisplay";
+import Home from "../Displaying1/Home";
+import Pricing from "../Pricing";
 
 const Body = () => {
   return (
     <>
-      <HomeDisplay srcc={Illu1} />
-      <HomeDisplay srcc={Illu2} />
-      <HomeDisplay srcc={Illu3} />
-      <HomeDisplay srcc={Illu4} />
+      <Home />
+      <Pricing />
     </>
   );
 };

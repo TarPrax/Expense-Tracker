@@ -5,7 +5,7 @@ const Header1 = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className=" bg-[#504B38] text-[#F8F3D9] shadow-md">
-      <div className="mx-auto py-1 px-4 sm: px-6 md: px-8 lg:px-10 flex justify-between">
+      <div className="mx-auto py-1  sm: px-6 md: px-8 lg:px-10 flex justify-between">
         <div className="Logo">
           <Logo />
         </div>
