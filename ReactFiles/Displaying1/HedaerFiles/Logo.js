@@ -2,7 +2,7 @@ import { MainLogo } from "../../Images/Constants";
 const Logo = () => {
   return (
     <>
-      <img className=" lg: w-48 h-auto sm: w-12 h-auto" src={MainLogo} />
+      <img className="w-32 sm:w-40 md:w-48 lg:w-56" src={MainLogo} />
     </>
   );
 };
