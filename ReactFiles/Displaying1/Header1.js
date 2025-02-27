@@ -1,6 +1,7 @@
 import Logo from "./HedaerFiles/Logo";
 import { useState } from "react";
 import { X, Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 const Header1 = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -12,9 +13,15 @@ const Header1 = () => {
 
         <div className="">
           <ul className="hidden sm:flex space-x-6">
-            <li>Home</li>
-            <li>Pricing</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/pricing">Pricing</Link>
+            </li>
+            <li>
+              <Link to="/contact">contact</Link>
+            </li>
           </ul>
         </div>
 
@@ -29,9 +36,15 @@ const Header1 = () => {
         {isOpen && (
           <div className="">
             <ul className="sm:hidden  ">
-              <li>Home</li>
-              <li>Pricing</li>
-              <li>Contact</li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/pricing">Pricing</Link>
+              </li>
+              <li>
+                <Link to="/contact">contact</Link>
+              </li>
             </ul>
           </div>
         )}
